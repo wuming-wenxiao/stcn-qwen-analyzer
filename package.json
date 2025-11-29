@@ -1,0 +1,9 @@
+{
+  "name": "stcn-qwen-analyzer",
+  "version": "1.0.0",
+  "description": "stcn快讯AI分析服务",
+  "main": "api/analyze.js",
+  "dependencies": {
+    "hono": "^4.0.0"
+  }
+}

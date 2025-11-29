@@ -6,7 +6,7 @@ app.use('*', cors());
 
 const DASHSCOPE_API_KEY = process.env.DASHSCOPE_API_KEY;
 
-app.post('/api/analyze', async (c) => {
+app.post('/', async (c) => {
   try {
     const { news } = await c.req.json();
     if (!news || typeof news !== 'string' || news.length < 20) {

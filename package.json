@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "AI 分析证券时报快讯",
   "main": "api/analyze.js",
-  "scripts": {},
+  "type": "module",
   "dependencies": {
     "hono": "^4.0.0"
   }

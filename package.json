@@ -1,8 +1,9 @@
 {
   "name": "stcn-qwen-analyzer",
   "version": "1.0.0",
-  "description": "stcn快讯AI分析服务",
+  "description": "AI 分析证券时报快讯",
   "main": "api/analyze.js",
+  "scripts": {},
   "dependencies": {
     "hono": "^4.0.0"
   }
